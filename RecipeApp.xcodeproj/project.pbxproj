@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9136219428D834F600DC2BE6 /* RecipeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9136219328D834F600DC2BE6 /* RecipeList.swift */; };
+		9136219628D83D6300DC2BE6 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9136219528D83D6300DC2BE6 /* RecipeView.swift */; };
 		9172D66428D63376001DA93B /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9172D66328D63376001DA93B /* RecipeCard.swift */; };
 		91796DA628CF6905002F2DDB /* CatagoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91796DA528CF6905002F2DDB /* CatagoriesView.swift */; };
 		91796DA828CF69B0002F2DDB /* NewRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91796DA728CF69B0002F2DDB /* NewRecipeView.swift */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		9136219328D834F600DC2BE6 /* RecipeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeList.swift; sourceTree = "<group>"; };
+		9136219528D83D6300DC2BE6 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
 		9172D66328D63376001DA93B /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = "<group>"; };
 		91796DA528CF6905002F2DDB /* CatagoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatagoriesView.swift; sourceTree = "<group>"; };
 		91796DA728CF69B0002F2DDB /* NewRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecipeView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				91852B9C28CCF63E00C6D67B /* Persistence.swift */,
 				91852B9E28CCF63E00C6D67B /* RecipeApp.xcdatamodeld */,
 				91852B9928CCF63E00C6D67B /* Preview Content */,
+				9136219528D83D6300DC2BE6 /* RecipeView.swift */,
 			);
 			path = RecipeApp;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				91852B9428CCF63A00C6D67B /* RecipeAppApp.swift in Sources */,
 				91796DA828CF69B0002F2DDB /* NewRecipeView.swift in Sources */,
 				91852BA928CCF71700C6D67B /* Home_View.swift in Sources */,
+				9136219628D83D6300DC2BE6 /* RecipeView.swift in Sources */,
 				91796DAA28CF6B98002F2DDB /* FaveriteView.swift in Sources */,
 				91852BA028CCF63E00C6D67B /* RecipeApp.xcdatamodeld in Sources */,
 				91796DAE28CF6CDF002F2DDB /* TabBar.swift in Sources */,
