@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 enum Category : String{
     case breakfast = "Breakfast"
@@ -37,10 +38,18 @@ struct Recipe : Identifiable{
 extension Recipe {
     
     static let all : [Recipe] = [
-        Recipe(name: "Creamy Soup", image: "https://www.lazezh.com/recipe-11868/", description: "fresh soup and so tasty ", ingredients: "Fresh vegetables and salt", directions: "smallbowl", category:"Soup" , datePublished: "1-1-2023", url: ""),
+        Recipe(name: "Creamy Soup", image: "https://www.magltk.com/how-make-vegetable-soup-pictures/"  , description: "fresh soup and so tasty ", ingredients: "Fresh vegetables and salt", directions: "smallbowl", category:"Soup" , datePublished: "1-1-2023", url: "https://www.magltk.com/how-make-vegetable-soup-pictures/"),
         
-        Recipe(name: " Soup", image: "https://www.lazezh.com/recipe-11868/", description: "fresh soup and so tasty ", ingredients: "Fresh vegetables and salt", directions: "smallbowl", category:"Soup" , datePublished: "1-1-2023", url: "")
+        Recipe(name: " Soup", image: "", description: "fresh soup and so tasty ", ingredients: "Fresh vegetables and salt", directions: "smallbowl", category:"Soup" , datePublished: "1-1-2023", url: "") ,
     
+        
+        Recipe(name: "Saled", image: "", description: "fresh soup and so tasty ", ingredients: "Fresh vegetables and salt", directions: "smallbowl", category:"Soup" , datePublished: "1-1-2023", url: "") ,
+        
+        
+        Recipe(name: " Soup", image: "", description: "fresh soup and so tasty ", ingredients: "Fresh vegetables and salt", directions: "smallbowl", category:"Soup" , datePublished: "1-1-2023", url: "") ,
+        
+        
+        Recipe(name: " Soup", image: "", description: "fresh soup and so tasty ", ingredients: "Fresh vegetables and salt", directions: "smallbowl", category:"Soup" , datePublished: "1-1-2023", url: "") 
     
     ]
 }
