@@ -86,11 +86,11 @@
 				9172D66328D63376001DA93B /* RecipeCard.swift */,
 				91F888E628D24DC5004D6844 /* RecipeModel.swift */,
 				9136219328D834F600DC2BE6 /* RecipeList.swift */,
+				9136219528D83D6300DC2BE6 /* RecipeView.swift */,
 				91852B9728CCF63E00C6D67B /* Assets.xcassets */,
 				91852B9C28CCF63E00C6D67B /* Persistence.swift */,
 				91852B9E28CCF63E00C6D67B /* RecipeApp.xcdatamodeld */,
 				91852B9928CCF63E00C6D67B /* Preview Content */,
-				9136219528D83D6300DC2BE6 /* RecipeView.swift */,
 			);
 			path = RecipeApp;
 			sourceTree = "<group>";
