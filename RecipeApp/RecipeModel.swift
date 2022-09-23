@@ -8,7 +8,10 @@
 import Foundation
 import UIKit
 
-enum Category : String{
+enum Category : String , CaseIterable , Identifiable{
+    
+    var id : String{self.rawValue}
+    
     case breakfast = "Breakfast"
     case soup = "Soup"
     case saled = "Saled"
